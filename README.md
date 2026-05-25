@@ -123,29 +123,7 @@ Intelligent-Enterprise-Assistant/
 
 ---
 
-# Installation Guide
 
-## Clone Repository
-
-```bash
-git clone https://github.com/yourusername/SIH1706-Intelligent-Enterprise-Assistant.git
-```
-
----
-
-# Backend Setup
-
-```bash
-cd backend
-
-python -m venv venv
-
-venv\Scripts\activate
-
-pip install -r requirements.txt
-
-uvicorn main:app --reload
-```
 
 Backend runs at:
 
@@ -267,17 +245,7 @@ FastAPI Swagger UI documentation.
 
 ---
 
-# Demo Video
 
-Add your YouTube demo link here.
-
-Example:
-
-```bash
-https://youtube.com/
-```
-
----
 
 # Future Enhancements
 
