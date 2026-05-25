@@ -13,6 +13,7 @@ Intelligent Enterprise Assistant: Enhancing Organizational Efficiency through AI
 <img width="1536" height="1024" alt="09dacc7e-d95d-4a6c-9994-3583d4efb6a2" src="https://github.com/user-attachments/assets/5fffd58f-b7d9-498a-b652-889f1b3e9000" />
 
 
+
 # Problem Statement
 
 Develop an AI-powered enterprise chatbot capable of answering employee queries related to:
