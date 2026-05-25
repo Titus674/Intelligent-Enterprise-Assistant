@@ -1,70 +1,290 @@
-# Getting Started with Create React App
+# Intelligent Enterprise Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Name : Titus Ratna Kumar Karivella 
+### Register number : 212224230292
 
-## Available Scripts
 
-In the project directory, you can run:
+## Problem Title
+Intelligent Enterprise Assistant: Enhancing Organizational Efficiency through AI-driven Chatbot Integration
 
-### `npm start`
+---
+# SCREENSHOTS 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="1536" height="1024" alt="09dacc7e-d95d-4a6c-9994-3583d4efb6a2" src="https://github.com/user-attachments/assets/5fffd58f-b7d9-498a-b652-889f1b3e9000" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# Problem Statement
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Develop an AI-powered enterprise chatbot capable of answering employee queries related to:
 
-### `npm run build`
+- HR Policies
+- IT Support
+- Company Events
+- Organizational Information
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The chatbot also supports:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Document Upload
+- PDF Text Extraction
+- Document Summarization
+- Keyword Extraction
+- Email-based 2FA Authentication
+- Bad Language Filtering
+- Multi-user Support
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+# Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## AI Chatbot
+- HR query support
+- IT support assistance
+- Organizational FAQ responses
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Document Processing
+- Upload PDF documents
+- Extract text from documents
+- Summarize uploaded documents
+- Extract keywords
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Authentication
+- Email OTP verification
+- Secure login system
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Safety Features
+- Bad language filtering
+- Secure API access
 
-## Learn More
+## Scalability
+- Supports multiple users simultaneously
+- Optimized backend response time
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Tech Stack
 
-### Code Splitting
+## Frontend
+- React.js
+- Tailwind CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Backend
+- FastAPI
+- Python
 
-### Analyzing the Bundle Size
+## AI/NLP
+- Hugging Face Transformers
+- Sentence Transformers
+- spaCy
+- NLTK
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Database
+- MongoDB
 
-### Making a Progressive Web App
+## Authentication
+- JWT
+- Email OTP
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+# System Architecture
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```text
+User → Frontend → Backend API → AI Engine → Database
+```
 
-### Deployment
+Modules:
+- Authentication Module
+- Chatbot Engine
+- Document Processing Module
+- Profanity Filter
+- Vector Search Engine
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+# Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+Intelligent-Enterprise-Assistant/
+│
+├── frontend/
+├── backend/
+│   ├── chatbot/
+│   ├── auth/
+│   ├── document_processing/
+│   ├── filters/
+│   ├── main.py
+│   └── requirements.txt
+│
+├── datasets/
+├── docs/
+└── README.md
+```
+
+---
+
+# Installation Guide
+
+## Clone Repository
+
+```bash
+git clone https://github.com/yourusername/SIH1706-Intelligent-Enterprise-Assistant.git
+```
+
+---
+
+# Backend Setup
+
+```bash
+cd backend
+
+python -m venv venv
+
+venv\Scripts\activate
+
+pip install -r requirements.txt
+
+uvicorn main:app --reload
+```
+
+Backend runs at:
+
+```bash
+http://127.0.0.1:8000
+```
+
+---
+
+# Frontend Setup
+
+```bash
+cd frontend
+
+npm install
+
+npm start
+```
+
+Frontend runs at:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+# API Endpoints
+
+## Chat API
+
+```bash
+POST /chat
+```
+
+## Upload PDF
+
+```bash
+POST /upload
+```
+
+## OTP Verification
+
+```bash
+POST /verify-otp
+```
+
+---
+
+# Screenshots
+
+## 1. Login Page
+
+Email OTP authentication page.
+
+```md
+![Login Page](docs/screenshots/login.png)
+```
+
+---
+
+## 2. OTP Verification
+
+Secure OTP verification screen.
+
+```md
+![OTP Verification](docs/screenshots/otp.png)
+```
+
+---
+
+## 3. Chat Interface
+
+AI chatbot for HR and IT support.
+
+```md
+![Chat Interface](docs/screenshots/chat.png)
+```
+
+---
+
+## 4. PDF Upload
+
+Upload and analyze company documents.
+
+```md
+![Upload PDF](docs/screenshots/upload.png)
+```
+
+---
+
+## 5. Document Summary
+
+AI-generated summary and keyword extraction.
+
+```md
+![Document Summary](docs/screenshots/summary.png)
+```
+
+---
+
+## 6. Bad Language Filter
+
+Profanity detection and filtering.
+
+```md
+![Bad Language Filter](docs/screenshots/filter.png)
+```
+
+---
+
+## 7. Swagger API Documentation
+
+FastAPI Swagger UI documentation.
+
+```md
+![Swagger UI](docs/screenshots/swagger.png)
+```
+
+---
+
+# Demo Video
+
+Add your YouTube demo link here.
+
+Example:
+
+```bash
+https://youtube.com/
+```
+
+---
+
+# Future Enhancements
+
+- Voice Assistant
+- Multi-language Support
+- AI Ticket Generation
+- Mobile Application
+- Analytics Dashboard
+
+---
+
